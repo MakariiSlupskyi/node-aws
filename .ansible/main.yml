@@ -1,0 +1,6 @@
+- name: Build Node.js App
+  hosts: all
+  remote_user: ubuntu
+  roles:
+    - git_pull
+    - docker_restart

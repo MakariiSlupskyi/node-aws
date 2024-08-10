@@ -1,0 +1,38 @@
+{
+  "name": "aws",
+  "version": "1.0.0",
+  "description": "Noge.js app on AWS EC2 Ubuntu server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "dev": "nodemon app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakariiSlupskyi/node-aws.git"
+  },
+  "keywords": [
+    "aws",
+    "ec2",
+    "ubuntu",
+    "linux",
+    "ci",
+    "cd",
+    "node",
+    "express",
+    "docker",
+    "ansible"
+  ],
+  "author": "Makarii Slupskyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MakariiSlupskyi/node-aws/issues"
+  },
+  "homepage": "https://github.com/MakariiSlupskyi/node-aws#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
